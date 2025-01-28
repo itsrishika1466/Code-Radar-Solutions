@@ -4,7 +4,6 @@ int main() {
     int x;
     int y;
     int z;
-    float average;
     scanf("%d ", &x);
     scanf("%d ", &y);
     scanf("%d\n", &z);
