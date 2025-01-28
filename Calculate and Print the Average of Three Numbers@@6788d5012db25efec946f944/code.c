@@ -4,8 +4,8 @@ int main() {
     int x;
     int y;
     int z;
-    scanf("%d\n", &x);
-    scanf("%d\n", &y);
+    scanf("%d ", &x);
+    scanf("%d ", &y);
     scanf("%d\n", &z);
     x = (x + y + z)/ 2;
     printf("Average: %d", x);
