@@ -7,7 +7,7 @@ int main() {
     scanf("%d ", &x);
     scanf("%d ", &y);
     scanf("%d\n", &z);
-    x = (x + y + z)/ 3.0;
-    printf("Average: %.2f", x);
+    x = (x + y + z)/ 3;
+    printf("Average: %d", x);
     return 0;
 }
