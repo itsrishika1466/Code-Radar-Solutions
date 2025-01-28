@@ -4,10 +4,11 @@ int main() {
     int x;
     int y;
     int z;
+    float average;
     scanf("%d ", &x);
     scanf("%d ", &y);
     scanf("%d\n", &z);
     x = (x + y + z)/ 2;
-    printf("Average: %f", x);
+    printf("Average: %.2f", x);
     return 0;
 }
