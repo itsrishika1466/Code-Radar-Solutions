@@ -18,8 +18,13 @@ int main() {
             printf("%d", result);
             break;
         case '/':
-            result = x / y;
-            printf("%d", result);
+            if(y!=0){
+                result = x / y;
+                printf("%d", result);
+            }
+            else{
+                printf("Error! Division by zero");
+            }
             break;
         default:
             printf("invalid");
