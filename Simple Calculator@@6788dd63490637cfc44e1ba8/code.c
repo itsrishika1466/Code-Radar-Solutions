@@ -20,6 +20,9 @@ int main() {
         case '/':
             result = x / y;
             printf("%d", result);
+            break;
+        default:
+            printf("invalid");
     }
     return 0;
 }
