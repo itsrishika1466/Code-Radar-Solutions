@@ -1,21 +1,25 @@
 #include<stdio.h>
 int main() {
-    int x,y;
+    int x,y,result;
     scanf("%d %d", &x, &y);
     char operator;
     scanf("%c", &operator);
     switch(operator){
         case '+':
-            printf("%d", x+y);
+            result = x+y; 
+            printf("%d", result);
             break;
         case '-':
-            printf("%d", x-y);
+            result = x-y;
+            printf("%d", result);
             break;
         case '*':
-            printf("%d", x*y);
+            result = x*y;
+            printf("%d", result);
             break;
         case '/':
-            printf("%d", x/y);
+            result = x/y;
+            printf("%d", result);
     }
     return 0;
 }
