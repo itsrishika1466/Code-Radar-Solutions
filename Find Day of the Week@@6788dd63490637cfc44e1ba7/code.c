@@ -5,28 +5,28 @@ int main() {
     switch(x){
         case 1:
             printf("Monday");
-            break;
+        break;
         case 2:
             printf("Tuesday");
-            break;
+        break;
         case 3:
             printf("Wednesday");
-            break;
+        break;
         case 4:
             printf("Thursday");
-            break;
+        break;
         case 5:
             printf("Friday");
-            break;
+        break;
         case 6:
             printf("Saturday");
-            break;
+        break;
         case 7:
             printf("Sunday");
-            break;
+        break;
         default case:
             printf("Invalid");
-            break;
+        break;
     }
     return 0;
 }
