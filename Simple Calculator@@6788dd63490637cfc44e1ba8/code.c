@@ -23,8 +23,5 @@ int main() {
                 printf("%d", result);
             }
             break;
-        default:
-            printf("invalid");
-    }
     return 0;
 }
