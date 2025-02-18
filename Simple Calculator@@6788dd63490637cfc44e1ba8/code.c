@@ -22,9 +22,6 @@ int main() {
                 result = x / y;
                 printf("%d", result);
             }
-            else{
-                printf("Error! Division by zero");
-            }
             break;
         default:
             printf("invalid");
