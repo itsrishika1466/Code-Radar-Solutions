@@ -20,8 +20,9 @@ int main() {
                 result = x / y;
                 if(x / y == 0){
                     printf("Error");
-                }
+                }else{
                 printf("%d", result);
+                }
             break;
         default:
             printf("invalid");
