@@ -22,7 +22,6 @@ int main() {
                     printf("Error");
                 }
                 printf("%d", result);
-            }
             break;
         default:
             printf("invalid");
