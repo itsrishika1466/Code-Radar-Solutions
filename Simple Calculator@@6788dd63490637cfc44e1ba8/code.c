@@ -2,8 +2,7 @@
 int main() {
     int x,y,result;
     char sign;
-    scanf("%d %d", &x, &y);
-    scanf("%c", &sign);
+    scanf("%d %d %c", &x, &y, &sign);
     switch(sign){
         case '+':
             result = x + y; 
