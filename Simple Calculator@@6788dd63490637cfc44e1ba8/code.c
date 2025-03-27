@@ -17,7 +17,7 @@ int main() {
             printf("%d", result);
             break;
         case '/':
-                result = x / y;
+            result = x / y;
                 if(x / y == 0){
                     printf("Error");
                 }else{
