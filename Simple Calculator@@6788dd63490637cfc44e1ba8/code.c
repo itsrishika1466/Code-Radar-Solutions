@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main() {
     int x,y,result;
+    char sign;
     scanf("%d %d", &x, &y);
-    char operator;
-    scanf("%c", &operator);
-    switch(operator){
+    scanf("%c", &sign);
+    switch(sign){
         case '+':
             result = x + y; 
             printf("%d", result);
