@@ -18,11 +18,11 @@ int main() {
             break;
         case '/':
             result = x / y;
-                if(x / y == 0){
-                    printf("Error");
-                }else{
+            if(x / y == 0){
+                printf("Error");
+            }else{
                 printf("%d", result);
-                }
+            }
             break;
         default:
             printf("invalid");
